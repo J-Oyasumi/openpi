@@ -10,7 +10,7 @@ import shutil
 from typing import Literal
 from termcolor import cprint
 import h5py
-from lerobot.common.constants import HF_LEROBOT_HOME
+from lerobot.common.constants import LEROBOT_HOME
 from lerobot.common.datasets.lerobot_dataset import LeRobotDataset
 import numpy as np
 import torch
